@@ -1,4 +1,4 @@
-### String Utility Library 
+### String Utility Library for Anar Framework
 
 #### Usage Guide
 
