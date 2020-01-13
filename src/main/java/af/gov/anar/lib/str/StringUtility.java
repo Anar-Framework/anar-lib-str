@@ -1,11 +1,6 @@
 package af.gov.anar.lib.str;
 
 
-import af.gov.anar.lang.infrastructure.exception.common.ArrayIndexOutOfBoundsException;
-import af.gov.anar.lang.infrastructure.exception.common.IllegalArgumentException;
-import af.gov.anar.lang.infrastructure.exception.common.PatternSyntaxException;
-import af.gov.anar.lang.infrastructure.util.constant.StringUtilConstants;
-
 import java.util.Locale;
 
 /**

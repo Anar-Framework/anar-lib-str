@@ -1,4 +1,4 @@
-package af.gov.anar.lib.str.constant;
+package af.gov.anar.lib.str.util;
 
 /**
  * Defines constants used in StringUtil.class
