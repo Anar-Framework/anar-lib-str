@@ -2,8 +2,7 @@ package af.gov.anar.lib.str.exception;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import lombok.extern.log4j.Log4j2;
 
 import java.io.PrintWriter;
 import java.io.StringWriter;
@@ -11,10 +10,9 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-
+@Log4j2
 public final class ExceptionUtils {
 
-	private static final Logger logger = LoggerFactory.getLogger(ExceptionUtils.class);
 
 	private ExceptionUtils() {
 
@@ -109,10 +107,10 @@ public final class ExceptionUtils {
 //		Optional<Throwable> rootCause = Stream.iterate(exception, Throwable::getCause)
 //				.filter(element -> element.getCause() == null).findFirst();
 //		if (rootCause.isPresent()) {
-//			logger.error("Error : " + exception.getMessage());
-//			logger.error("RootCause Error : ", rootCause.get());
+//			log.error("Error : " + exception.getMessage());
+//			log.error("RootCause Error : ", rootCause.get());
 //		} else {
-//			logger.error("Error : ", exception);
+//			log.error("Error : ", exception);
 //		}
 
 		// System.out.println("Error : " + exception.getMessage());
