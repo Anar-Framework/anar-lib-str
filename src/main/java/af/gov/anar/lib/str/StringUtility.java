@@ -1,9 +1,6 @@
 package af.gov.anar.lib.str;
 
 
-
-package af.gov.anar.lang.infrastructure.util;
-
 import af.gov.anar.lang.infrastructure.exception.common.ArrayIndexOutOfBoundsException;
 import af.gov.anar.lang.infrastructure.exception.common.IllegalArgumentException;
 import af.gov.anar.lang.infrastructure.exception.common.PatternSyntaxException;
