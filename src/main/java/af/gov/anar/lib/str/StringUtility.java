@@ -13,12 +13,12 @@ import java.util.Locale;
  *
  */
 
-public final class StringUtils {
+public final class StringUtility {
     /**
      * Private Constructor for StringUtil class
      *
      */
-    private StringUtils() {
+    private StringUtility() {
 
     }
 
