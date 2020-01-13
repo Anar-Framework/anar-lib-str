@@ -8,7 +8,7 @@
 		<version>2.2.2.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>af.gov.anar.lib.stro</groupId>
+	<groupId>af.gov.anar.lib.str</groupId>
 	<artifactId>anar-lib-str</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>anar-lib-str</name>
